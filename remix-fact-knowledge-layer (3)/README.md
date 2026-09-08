@@ -1,8 +1,7 @@
 # 🔍 Fact Knowledge Layer — Multi-PDF Cross-Document Fact Verification Engine
 
 > **Live Hosted Application**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)  
-> **Submission for**: Superjoin VIT 2026 · Engineering Intern Hiring Assignment  
-> **Author**: Deepika Sharma  
+> **Author**: Deepika 
 
 ---
 
@@ -42,9 +41,8 @@ This project implements a **Fact Knowledge Layer**. It does not merely summarize
 
 ## 🎥 Live Application & Demo
 
-- **Live Hosted URL**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)  
-  *(Hosted directly from command prompt via Firebase CLI)*
-- **Demo Video**: [Click here to watch the 3-minute Video Walkthrough](https://factcheck-f6ace.web.app) *(Paste your Loom / YouTube / Drive link here)*
+- **Live Hosted URL**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)  https://drive.google.com/file/d/1PuuxbkBcaVe7RuZwzxHNlyO4f7mavWh7/view?usp=sharing
+- **Demo Video**: https://drive.google.com/file/d/1PuuxbkBcaVe7RuZwzxHNlyO4f7mavWh7/view?usp=sharing
 
 ---
 
@@ -128,11 +126,8 @@ Create a file named `.env` in the root folder of the project:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-> **How to get a free Gemini API Key:**
-> 1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey).
-> 2. Click **Create API Key**.
-> 3. Paste the key after `GEMINI_API_KEY=` in your `.env` file.  
-> *(If no key is configured, the application automatically provides the full pre-extracted multi-PDF dataset with all facts, evidence quotes, and cross-document comparisons so every feature can be evaluated immediately).*
+> **How to get a API Key:**
+confidential
 
 ---
 
@@ -345,9 +340,3 @@ Our system demonstrates all 4 mandatory assignment cases on the starter dataset 
 | **Identifies reasoning/extraction failure** | Case 4 demonstrated with CSAT footnote methodology shift and confidence dampening. | ✅ Passed |
 | **Handles multiple PDFs in same knowledge layer** | System scales to $N \ge 3$ PDFs with multi-document cross-referencing. | ✅ Passed |
 | **Self-contained deployment & setup** | Complete step-by-step instructions for running locally and deploying to Firebase Hosting. | ✅ Passed |
-
----
-
-### 📬 Submission Links
-- **Hosted App**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)
-- **Submission Form**: [Google Form Link](https://forms.gle/3fLdBQ2D6Zm2Gqtv7)
