@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "entities": {
+    "AnalysisSession": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "documentNames": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "factsCount": { "type": "number" },
+        "comparisonsCount": { "type": "number" },
+        "contradictionsCount": { "type": "number" },
+        "data": { "type": "object" }
+      },
+      "required": ["id", "title", "createdAt", "documentNames", "factsCount", "comparisonsCount", "data"]
+    },
+    "UserFeedback": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "factId": { "type": "string" },
+        "verdict": { "type": "string" },
+        "notes": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "factId", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/sessions/{sessionId}": {
+      "schema": "AnalysisSession",
+      "description": "Extracted document analysis sessions, verified claims, cross-PDF comparisons and summary data."
+    },
+    "/feedback/{feedbackId}": {
+      "schema": "UserFeedback",
+      "description": "User notes, annotations or feedback on extracted facts."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@keyframes cutePopIn {
+  0% {
+    opacity: 0;
+    transform: translateY(28px) scale(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.05);
+  }
+  80% {
+    transform: translateY(3px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes cuteWave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-14deg);
+  }
+  60% {
+    transform: rotate(16deg);
+  }
+  80% {
+    transform: rotate(-8deg);
+  }
+}
+
+@keyframes cuteFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes cuteBlink {
+  0%, 92%, 100% {
+    transform: scaleY(1);
+  }
+  96% {
+    transform: scaleY(0.08);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+}
+
+.animate-cute-pop {
+  animation: cutePopIn 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-cute-float {
+  animation: cuteFloat 2.8s ease-in-out infinite;
+}
+
+.animate-cute-wave {
+  transform-origin: 120px 120px;
+  animation: cuteWave 1.4s ease-in-out infinite;
+}
+
+.animate-cute-blink {
+  transform-origin: center;
+  animation: cuteBlink 3.8s infinite;
+}
+
+.animate-twinkle {
+  animation: twinkle 1.6s ease-in-out infinite;
+}

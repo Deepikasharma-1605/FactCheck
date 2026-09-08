@@ -1,0 +1,8 @@
+{
+  "name": "FactCheck",
+  "description": "Cross-document PDF fact extraction, evidence grounding, and semantic contradiction analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
