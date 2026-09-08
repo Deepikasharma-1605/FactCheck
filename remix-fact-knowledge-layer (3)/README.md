@@ -41,7 +41,7 @@ This project implements a **Fact Knowledge Layer**. It does not merely summarize
 
 ## 🎥 Live Application & Demo
 
-- **Live Hosted URL**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)  https://drive.google.com/file/d/1PuuxbkBcaVe7RuZwzxHNlyO4f7mavWh7/view?usp=sharing
+- **Live Hosted URL**: [https://factcheck-f6ace.web.app](https://factcheck-f6ace.web.app)  
 - **Demo Video**: https://drive.google.com/file/d/1PuuxbkBcaVe7RuZwzxHNlyO4f7mavWh7/view?usp=sharing
 
 ---
