@@ -335,3 +335,8 @@ Our system demonstrates all 4 mandatory assignment cases on the starter dataset 
 | **Extracts meaningful numerical or semantic facts** | Extracts revenues, headcount, leadership, and operational metrics with normalized values and units. | ✅ Passed |
 | **Links every fact to evidence in source document** | Every fact includes exact document name, page number, and verbatim quote. | ✅ Passed |
 | **Identifies corroborated facts** | Case 1 demonstrated with $42.5M revenue verification. | ✅ Passed |
+| **Identifies genuine contradictions** | Case 2 demonstrated with 1,240 vs 890 employee headcount clash. | ✅ Passed |
+| **Identifies context-reconciled facts** | Case 3 demonstrated with Q4 vs Full-Year profit and CTO leadership transition. | ✅ Passed |
+| **Identifies reasoning/extraction failure** | Case 4 demonstrated with CSAT footnote methodology shift and confidence dampening. | ✅ Passed |
+| **Handles multiple PDFs in same knowledge layer** | System scales to $N \ge 3$ PDFs with multi-document cross-referencing. | ✅ Passed |
+| **Self-contained deployment & setup** | Complete step-by-step instructions for running locally and deploying to Firebase Hosting. | ✅ Passed |
